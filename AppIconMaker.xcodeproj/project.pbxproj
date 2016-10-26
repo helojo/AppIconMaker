@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19DA19D31DC107E900D11E04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DA19D21DC107E900D11E04 /* AppDelegate.m */; };
+		19DA19D61DC107E900D11E04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DA19D51DC107E900D11E04 /* main.m */; };
+		19DA19D81DC107E900D11E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19DA19D71DC107E900D11E04 /* Assets.xcassets */; };
+		19DA19DB1DC107E900D11E04 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19DA19D91DC107E900D11E04 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19DA19CE1DC107E900D11E04 /* AppIconMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppIconMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19DA19D11DC107E900D11E04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19DA19D21DC107E900D11E04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19DA19D51DC107E900D11E04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19DA19D71DC107E900D11E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19DA19DA1DC107E900D11E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		19DA19DC1DC107E900D11E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19DA19CB1DC107E900D11E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19DA19C51DC107E900D11E04 = {
+			isa = PBXGroup;
+			children = (
+				19DA19D01DC107E900D11E04 /* AppIconMaker */,
+				19DA19CF1DC107E900D11E04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19DA19CF1DC107E900D11E04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19DA19CE1DC107E900D11E04 /* AppIconMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19DA19D01DC107E900D11E04 /* AppIconMaker */ = {
+			isa = PBXGroup;
+			children = (
+				19DA19D11DC107E900D11E04 /* AppDelegate.h */,
+				19DA19D21DC107E900D11E04 /* AppDelegate.m */,
+				19DA19D71DC107E900D11E04 /* Assets.xcassets */,
+				19DA19D91DC107E900D11E04 /* MainMenu.xib */,
+				19DA19DC1DC107E900D11E04 /* Info.plist */,
+				19DA19D41DC107E900D11E04 /* Supporting Files */,
+			);
+			path = AppIconMaker;
+			sourceTree = "<group>";
+		};
+		19DA19D41DC107E900D11E04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19DA19D51DC107E900D11E04 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19DA19CD1DC107E900D11E04 /* AppIconMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19DA19DF1DC107E900D11E04 /* Build configuration list for PBXNativeTarget "AppIconMaker" */;
+			buildPhases = (
+				19DA19CA1DC107E900D11E04 /* Sources */,
+				19DA19CB1DC107E900D11E04 /* Frameworks */,
+				19DA19CC1DC107E900D11E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppIconMaker;
+			productName = AppIconMaker;
+			productReference = 19DA19CE1DC107E900D11E04 /* AppIconMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19DA19C61DC107E900D11E04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wwideapp;
+				TargetAttributes = {
+					19DA19CD1DC107E900D11E04 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DRTG2846YS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 19DA19C91DC107E900D11E04 /* Build configuration list for PBXProject "AppIconMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19DA19C51DC107E900D11E04;
+			productRefGroup = 19DA19CF1DC107E900D11E04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19DA19CD1DC107E900D11E04 /* AppIconMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19DA19CC1DC107E900D11E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DA19D81DC107E900D11E04 /* Assets.xcassets in Resources */,
+				19DA19DB1DC107E900D11E04 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19DA19CA1DC107E900D11E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DA19D61DC107E900D11E04 /* main.m in Sources */,
+				19DA19D31DC107E900D11E04 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19DA19D91DC107E900D11E04 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19DA19DA1DC107E900D11E04 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19DA19DD1DC107E900D11E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		19DA19DE1DC107E900D11E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		19DA19E01DC107E900D11E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DRTG2846YS;
+				INFOPLIST_FILE = AppIconMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wwideapp.AppIconMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19DA19E11DC107E900D11E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DRTG2846YS;
+				INFOPLIST_FILE = AppIconMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wwideapp.AppIconMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19DA19C91DC107E900D11E04 /* Build configuration list for PBXProject "AppIconMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DA19DD1DC107E900D11E04 /* Debug */,
+				19DA19DE1DC107E900D11E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19DA19DF1DC107E900D11E04 /* Build configuration list for PBXNativeTarget "AppIconMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DA19E01DC107E900D11E04 /* Debug */,
+				19DA19E11DC107E900D11E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19DA19C61DC107E900D11E04 /* Project object */;
+}
