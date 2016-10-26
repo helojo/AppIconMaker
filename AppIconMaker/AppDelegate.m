@@ -50,7 +50,7 @@
             NSURL *floderURL = panel.URLs.firstObject;
             
             NSImage *image = [[NSImage alloc] initWithContentsOfURL:_fileURL];
-            NSArray *array = @[@(58), @(80), @(87), @(120), @(180), @(400), @(1024)];
+            NSArray *array = @[@(40), @(58), @(60) ,@(80), @(87), @(120), @(180), @(1024)];
             for(NSNumber *num in array)
             {
                 NSSize size = NSMakeSize(num.floatValue, num.floatValue);
