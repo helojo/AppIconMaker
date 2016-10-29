@@ -256,7 +256,7 @@
 				DEVELOPMENT_TEAM = DRTG2846YS;
 				INFOPLIST_FILE = AppIconMaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wwideapp.AppIconMaker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericzjx.AppIconMaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -269,7 +269,7 @@
 				DEVELOPMENT_TEAM = DRTG2846YS;
 				INFOPLIST_FILE = AppIconMaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wwideapp.AppIconMaker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericzjx.AppIconMaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -293,6 +293,7 @@
 				19DA19E11DC107E900D11E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
